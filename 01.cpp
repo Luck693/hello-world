@@ -49,7 +49,9 @@ void solve(vector<int>& clocks, vector<int>& current_solution, int step = 0) {
     
 }
 
-
+void f(int j){
+return j;
+}
 int main(){
     vector<int> clocks(9);
     for(int i = 0; i < 9; i++) {
@@ -61,6 +63,7 @@ int main(){
         if (i > 0) cout << " ";
         cout << best_solution[i];
     }
+
     cout<<"lll"<<endl;
     cout << endl;
     return 0;
