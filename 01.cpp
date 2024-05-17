@@ -61,6 +61,7 @@ int main(){
         if (i > 0) cout << " ";
         cout << best_solution[i];
     }
+    cout<<"lll"<<endl;
     cout << endl;
     return 0;
 }
